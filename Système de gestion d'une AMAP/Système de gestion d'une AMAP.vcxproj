@@ -124,10 +124,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="legume.cpp" />
+    <ClCompile Include="legume_kilo.cpp" />
+    <ClCompile Include="legume_unitaire.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="legume.hpp" />
+    <ClInclude Include="legume.h" />
+    <ClInclude Include="legume_kilo.hpp" />
+    <ClInclude Include="legume_unitaire.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
