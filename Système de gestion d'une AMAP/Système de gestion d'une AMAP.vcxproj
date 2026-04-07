@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -127,11 +127,13 @@
     <ClCompile Include="legume_kilo.cpp" />
     <ClCompile Include="legume_unitaire.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="panier.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="legume.h" />
     <ClInclude Include="legume_kilo.hpp" />
     <ClInclude Include="legume_unitaire.h" />
+    <ClInclude Include="panier.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
